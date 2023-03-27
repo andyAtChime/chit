@@ -15,3 +15,4 @@ function ccd() {
     cd "$WORK_DIR_PATH/$1"
   fi
 }
+compctl -W $WORK_DIR_PATH -/ ccd
